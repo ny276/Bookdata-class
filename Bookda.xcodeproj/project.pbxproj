@@ -12,6 +12,8 @@
 		34A6A335216B337D0056118B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A6A333216B337D0056118B /* Main.storyboard */; };
 		34A6A337216B33830056118B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A6A336216B33830056118B /* Assets.xcassets */; };
 		34A6A33A216B33830056118B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A6A338216B33830056118B /* LaunchScreen.storyboard */; };
+		34A6A342216B33A10056118B /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6A341216B33A10056118B /* BookData.swift */; };
+		34A6A344216B33A50056118B /* book.xml in Resources */ = {isa = PBXBuildFile; fileRef = 34A6A343216B33A50056118B /* book.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		34A6A336216B33830056118B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34A6A339216B33830056118B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34A6A33B216B33830056118B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A6A341216B33A10056118B /* BookData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookData.swift; path = ../../book/book/BookData.swift; sourceTree = "<group>"; };
+		34A6A343216B33A50056118B /* book.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = book.xml; path = ../../book/book/book.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				34A6A336216B33830056118B /* Assets.xcassets */,
 				34A6A338216B33830056118B /* LaunchScreen.storyboard */,
 				34A6A33B216B33830056118B /* Info.plist */,
+				34A6A343216B33A50056118B /* book.xml */,
+				34A6A341216B33A10056118B /* BookData.swift */,
 			);
 			path = Bookda;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				34A6A33A216B33830056118B /* LaunchScreen.storyboard in Resources */,
 				34A6A337216B33830056118B /* Assets.xcassets in Resources */,
+				34A6A344216B33A50056118B /* book.xml in Resources */,
 				34A6A335216B337D0056118B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				34A6A332216B337D0056118B /* ViewController.swift in Sources */,
 				34A6A330216B337D0056118B /* AppDelegate.swift in Sources */,
+				34A6A342216B33A10056118B /* BookData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
